@@ -40,6 +40,14 @@ const other = {
             url: '/category-page',
             icon: icons.IconBrandChrome,
             breadcrumbs: true
+        },
+        {
+            id: 'product-page',
+            title: <FormattedMessage id="product-page" />,
+            type: 'item',
+            url: '/product-page',
+            icon: icons.IconBrandChrome,
+            breadcrumbs: true
         }
     ]
 };

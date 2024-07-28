@@ -9,6 +9,7 @@ import Loadable from 'ui-component/Loadable';
 const SamplePage = Loadable(lazy(() => import('views/sample-page')));
 const BrandsPage = Loadable(lazy(() => import('views/brands')));
 const ModelsPage = Loadable(lazy(() => import('views/models')));
+const ProductPage = Loadable(lazy(() => import('views/products')));
 const CategoriesPage = Loadable(lazy(() => import('views/categories')));
 
 // ==============================|| MAIN ROUTING ||============================== //
@@ -40,6 +41,10 @@ const MainRoutes = {
         {
             path: '/category-page',
             element: <CategoriesPage />
+        },
+        {
+            path: '/product-page',
+            element: <ProductPage />
         }
     ]
 };
